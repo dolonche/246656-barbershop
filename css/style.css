@@ -1,0 +1,22 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.brands {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.groups {
+    font-size: 24px;
+    line-height: 30px;
+}
