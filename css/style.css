@@ -237,3 +237,82 @@ article a{
     margin-right: 130px;
     margin-top: 63px;
 }
+.content .breadcrumbs {
+    padding: 0
+}
+.content .breadcrumbs ul{
+    display: inline-block;
+}
+.content .breadcrumbs li{
+    list-style: none;
+    display: inline-block;
+}
+.content .breadcrumbs li:not(:first-child) {
+    margin-left: 40px;
+}
+.content .breadcrumbs li:not(:last-child) a{
+    color: #000000;
+}
+.content .breadcrumbs li:last-child {
+    color: #aba9a7;
+}
+.pictures{
+    width: 500px;
+    float: left
+}
+.pictures a img {
+    margin-top: 21px;
+}
+.pictures a:not(:first-of-type) img {
+    margin-left: 20px;
+}
+.product-information{
+    float: left;
+    width: 379px;
+    height: 650px;
+    margin-top: 26px;
+}
+.product-information  .vendor-code{
+    float: right;
+    color: #aeaeae;
+}
+.product-information  p{
+    margin-top: 40px;
+}
+.price-purhase{
+    float: left
+}
+.price-purhase span, .price-purhase a{
+    padding: 10px 15px;
+    float: left;
+    background-color:#E3E3E3;
+}
+.price-purhase a{
+    background-color: #000000;
+    text-decoration: none;
+    color: white
+}
+.price-purhase span{
+    width: 109px;
+    padding: 10px 0;
+    text-align: center;
+}
+.product-information h2{
+    float: left;
+    clear: left;
+    margin-top: 67px;
+}
+.product-information ul {
+    height: 158px;
+    width: 215px;
+    float: left;
+    clear: left
+}
+.product-information ul li{
+    list-style: none;
+    float: left;
+    clear: left;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+}
