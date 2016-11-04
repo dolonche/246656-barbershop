@@ -6,16 +6,18 @@ body {
     color: #000000;
     text-transform: uppercase;
     background-color: #F9F6F3;
-    width: 1200px;
     margin-left: auto;
     margin-right: auto
 }
 
 header {
     margin-top: -14px;
+    width: auto;
+    background-color: black;
+   
 }
 
-.clearfix {
+.clearfix:after {
     content: "";
     display: table;
     clear: both
@@ -24,6 +26,9 @@ header {
 .container {
     height: 72px;
     background-color: black;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -46,9 +51,9 @@ header {
 }
 
 .user-block {
-    float: right;
+    float: left;
     margin-top: 29px;
-    margin-right: 150px
+    margin-left: 300px
 }
 
 .user-block a {
@@ -68,7 +73,9 @@ h1 {
 }
 
 .content {
-    margin-left: 130px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 45px;
     margin-bottom: 49px;
 }
@@ -80,6 +87,7 @@ h1 {
 
 .breadcrumbs a {
     text-decoration: none;
+    display: inline-block;
     color: #000000;
 }
 
@@ -95,6 +103,10 @@ h1 {
 .groups {
     float: left;
     margin-top: 60px;
+    clear: left
+}
+.sorting{
+    float: left;
 }
 
 form {
@@ -143,12 +155,9 @@ form:last-of-type label {
     margin-left: 20px;
 }
 .product{
-    display: inline-block;
-    vertical-align: top;
+    float: left;
     width: 760px;
-    margin-left: 200px;
     height: 615px;
-    margin-top: -550px
     
 }
 article {
@@ -217,6 +226,9 @@ article a{
 .paginator li:nth-child(2){
     background-color: white
 }
+footer{
+    background-color: black
+}
 .main-footer .container{
     height: 189px;
     color: white;
@@ -230,7 +242,8 @@ article a{
 .footer-social{
     float:left;
     margin-top: 63px;
-    margin-left: 190px
+    margin-left: 190px;
+    text-align: center
 }
 .footer-copyright{
     float: right;
@@ -239,9 +252,6 @@ article a{
 }
 .content .breadcrumbs {
     padding: 0
-}
-.content .breadcrumbs ul{
-    display: inline-block;
 }
 .content .breadcrumbs li{
     list-style: none;
@@ -258,7 +268,8 @@ article a{
 }
 .pictures{
     width: 500px;
-    float: left
+    float: left;
+    margin-top: 60px;
 }
 .pictures a img {
     margin-top: 21px;
@@ -270,7 +281,7 @@ article a{
     float: left;
     width: 379px;
     height: 650px;
-    margin-top: 26px;
+    margin-top: 76px;
 }
 .product-information  .vendor-code{
     float: right;
@@ -280,7 +291,8 @@ article a{
     margin-top: 40px;
 }
 .price-purhase{
-    float: left
+    float: left;
+    margin-top: 41px;
 }
 .price-purhase span, .price-purhase a{
     padding: 10px 15px;
